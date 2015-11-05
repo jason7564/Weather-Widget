@@ -90,7 +90,7 @@ function buildWidget(cls){
   }
 }
 
-function loadCount(){
+  function loadCount(){
     scriptsLoaded++;
     if(scriptsLoaded === 2){
       //call the function in My widget script to load the JSON and build the widget
